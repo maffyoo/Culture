@@ -52,7 +52,7 @@ deliver measurable outcomes quickly
 
 feedback early and often
 
-# Trunk Based Development #
+### Trunk Based Development ###
 
 > _Trunk based development supports our efforts in continuous delivery and ensures we can always release_
 
