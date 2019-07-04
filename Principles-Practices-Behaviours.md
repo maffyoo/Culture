@@ -43,6 +43,7 @@ pair programming
 
 > _Our goal is continuous delivery_
 
+
 Build quality in
 
 Small changes mean issues can be detected and fixed cheaply
