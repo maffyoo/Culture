@@ -81,7 +81,7 @@ We only use spokes on work that relates to user value
 
 This is not necessarily a PR related review. This could be through pairing or through separate validation of work undertaken by someone on their own. Small batches is the key to keeping this an efficient practice.
 
-## Principles ##
+## Principles ##
 
 ### SOLID ###
 
@@ -102,8 +102,7 @@ This is not necessarily a PR related review. This could be through pairing or th
 
     Our Architectural values are represented by Clean Architecture Principles
 
-
-### Visualise Work ###
+### Visualise work ###
 
     We visualise work so our progress is transparent
 
@@ -113,7 +112,7 @@ This is not necessarily a PR related review. This could be through pairing or th
 
     focus to ensure quality and best cater for thought workers
 
-### Agile ###
+### Agile ###
 
     We value the principles of Agile
 
@@ -122,7 +121,7 @@ This is not necessarily a PR related review. This could be through pairing or th
 - Customer collaboration over contract negotiation
 - Responding to change over following a plan
 
-### Solve problems with code ###
+### Solve Problems with Code ###
 
     Be happy to throw it away
 
@@ -139,7 +138,7 @@ This is not necessarily a PR related review. This could be through pairing or th
 
 
 
-### Quality###
+### Quality ###
 
 From the start
 Not-negotiable
