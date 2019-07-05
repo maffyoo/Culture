@@ -1,6 +1,6 @@
 # Practices #
 
-### Test Driven Development ###
+## Test Driven Development ##
 
 > _We value the practice of test-driven development_
 
