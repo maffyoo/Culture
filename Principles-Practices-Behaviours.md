@@ -2,7 +2,8 @@
 
 ### Test Driven Development ###
 
-    We value the practice of test-driven development
+> _We value the practice of test-driven development_
+
 If you don't write the tests first will you write them afterwards?
 
 Produces testable code by default
