@@ -128,7 +128,7 @@ but all code must be reviewed by someone other than the author
 
 > **_We arent afraid to throw work away or to write some code to help us solve a problem_**
 
-## We use Fitness functions as a was measuring and reasoning about our evolving architecture ##
+## We use Fitness functions as a way of measuring and reasoning about our architecture ##
 
 > **_just like we measure our products to gauge success we measure our code and architecture to protect our code_**
 
