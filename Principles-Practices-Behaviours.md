@@ -104,6 +104,7 @@ but all code must be reviewed by someone other than the author
 ## Clean Architecture Principles ##
 
 > **_Our Architectural values are represented by Clean Architecture Principles_**
+
 [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 ## Visualise work ##
