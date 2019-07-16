@@ -100,6 +100,9 @@ but all code must be reviewed by someone other than the author
 
 **D**ependency inversion principle
 
+## Done means Done ##
+
+> **_We only hand-off code that is shippable_**
 
 ## Clean Architecture Principles ##
 
