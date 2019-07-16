@@ -6,7 +6,7 @@
 
 If you don't write the tests first will you write them afterwards?
 
-Produces testable code by default
+Test driven development produces testable code by default
 
 ## Pairing and Pair Programming ##
 
@@ -30,13 +30,13 @@ small batches of work are easily verifiable, reduce risk and guide us towards co
 
 Local Changes < 1 day old
 
-## Review early and often ##
+## Feedback early and often ##
 
-> **_We always aim to verify our work before the last moment_**
+> **_We always verify our work before the last moment_**
 
-Clarify Specification and validate solution outline
+Clarify Specifications and validate solution outlines
 
-Use Pair programming
+Use Pair Programming for continuous review* 
 
 ## Continuous delivery ##
 
@@ -44,22 +44,21 @@ Use Pair programming
 
 Small changes mean issues can be detected and fixed cheaply
 
-deliver measurable outcomes quickly
+CD delivers measurable outcomes quickly
 
-feedback early and often
+Feedback early and often
 
 ## Trunk Based Development ##
 
-> **_Trunk based development supports our efforts in continuous delivery and ensures we can always release_
+> **_Trunk based development supports our efforts in continuous delivery and ensures we can always release_**
 
-We support longer term batches of work by using Feature Flags
-and Branch by Abstraction
+We support longer term batches of work by using Feature Flags and Branch by Abstraction
 
 ## Remote first ##
 
 > **_We support remote workers as first class participants in any activity they are part of_**
 
-A modern workforce should be enabled to work in a flexible way that supports their location and allows them an equal presence
+A modern workforce should be enabled to work in a flexible way that supports their situation and allows them an equal presence with other participants
 
 ## Spikes ##
 
@@ -67,20 +66,23 @@ A modern workforce should be enabled to work in a flexible way that supports the
 
 Spikes are never on Master
 
-We only use spokes on work that relates to user value
+We only use spikes on work that relates to user value
 
-## Architectural decision records (ADRs) ##
+## Use Architectural decision records (ADRs) to cpature key decisions about of our architecture ##
 > **_We use architectural decision records as a way of capturing and communicating key decisions about our software architecture_**
+
+These shouldnt be treated like acceptance criteria
 
 ## Mobbing ##
 
-> **_We mob where significant technical exploration is required_**
+> **_We find mobbing a valuable tool where significant technical exploration is required_**
 
 ## Code Review ##
 
 > **_All of our code is reviewed_**
 
 This is not necessarily a PR related review. This could be through pairing or through separate validation of work undertaken by someone on their own. Small batches is the key to keeping this an efficient practice.
+but all code must be reviewed by someone other than the author 
 
 # Principles #
 
@@ -92,7 +94,7 @@ This is not necessarily a PR related review. This could be through pairing or th
 
 **O**pen-closed principle
 
-**L**iskow substitution principles
+**L**iskow substitution principle
 
 **I**nterface segregation principle
 
@@ -102,10 +104,11 @@ This is not necessarily a PR related review. This could be through pairing or th
 ## Clean Architecture Principles ##
 
 > **_Our Architectural values are represented by Clean Architecture Principles_**
+[Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 ## Visualise work ##
 
-> **_We visualise work so that it is transparent_**
+> **_We visualise work to share understanding_**
 
 ## Flow ##
 
@@ -120,11 +123,11 @@ This is not necessarily a PR related review. This could be through pairing or th
 - Customer collaboration over contract negotiation
 - Responding to change over following a plan
 
-## Solve Problems with Code ##
+## We Solve Problems with Code ##
 
 > **_We arent afraid to throw work away or to write some code to help us solve a problem_**
 
-## Architectural Fitness ##
+## We use Fitness functions as a was measuring and reasoning about our evolving architecture ##
 
 > **_just like we measure our products to gauge success we measure our code and architecture to protect our code_**
 
@@ -134,22 +137,30 @@ This is not necessarily a PR related review. This could be through pairing or th
 
 ## Technology decisions are owned by chapters ##
 
-> **_Key decisions on technology and its use are decided by chapters_**
+> **_Key decisions on platform specific technology and its use are decided by chapters_**
 
-## Quality ##
+## We believe in total Quality ##
 
-From the start
-Not-negotiable
+Quality From the start
+Our quality standards are not negotiable
 
-# Behaviour #
+# Behaviours #
 
-Transparency
+## We value transparency ##
 
-Involvement
+> **_Transparency provides for a culture of trust and allows shared understanding_**
 
-Learner/Student
+## We are inclusive by default ##
 
-Coaching - continual coaching
+> **_We are equals as part of the same team_**
 
-Inclusive
-    By default
+## Fairness and equality are paramount ##
+
+## We value and support continual learning and development ##
+
+> **_Self development and mastery is critical to our personal and mutual success_**
+
+## We believe everyone is a coach ## 
+
+> **_We help each other be our best through honest dialogue, advice and support _**
+
