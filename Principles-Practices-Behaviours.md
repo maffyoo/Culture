@@ -2,79 +2,56 @@
 
 ## Test Driven Development ##
 
-Writing tests first avoids the challenge of whether you will write them afterwards
-
-Test-driven development produces testable code by default
-
-Test-driven development encourages client oriented design choices made from the perspective of a consumer which can promote better API design
+Test-driven development produces testable code by default and writing tests first avoids the challenge of whether you will write them afterward.Test-driven development also encourages client-oriented design; choices are made from the perspective of a consumer which can promote better API design.
 
 [TDD Kata](http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata)
 
 ## Pairing and Pair Programming ##
 
-Pair Programming allows upfront discussion of specifications and design decisions rather than relying on a review of already written code. Pair programming is generally done at the right time for the right reasons - not all day, every day
-
-Its useful to agree a pairing style and the scope of the work to be done before beginning a pairing session 
+Pair Programming allows upfront discussion of specifications and design decisions rather than relying on a review of already written code. Pair programming is generally done at the right time for the right reasons - not all day, every day. Its useful to agree a pairing style and the scope of the work to be done before beginning a pairing session 
 
 ## Work is done in small batches ##
 
-Small batches of work are easily verifiable, reduce risk and support our goal of continuous integration and delivery
-
-Local Changes should be less than 1 day old
+Small batches of work are easily verifiable, reduce risk and support our goals of continuous integration and delivery
+Local Changes should be kept to less than 1 day old
 
 ## Feedback early and often ##
 
-Clarify Specifications and validate solution outlines continuously and early to avoid the only check being a review once code is already written. Pair Programming is great for continuous review and TDD for continuous feedback
+Clarifying Specifications and validating solution outlines continuously and early avoids relying on a single check that is a review once code is already written. Pair Programming is great for continuous review and TDD for continuous feedback
 
 ## Continuous delivery ##
 
-Continuous Delivery produces measurable outcomes quickly
-
-Small batches mean issues can be detected and fixed cheaply
-
-supports our principle of feeding back early and often
+Continuous Delivery produces measurable outcomes quickly. working in small batches mean issues can be detected and fixed cheaply and this supports our principle of feeding back early and often
 
 ## Trunk Based Development ##
 
-Ensure code is always shippable
-
-Support longer term batches of work by using Feature Flags and Branch by Abstraction
+We should ensure code is always shippable from master because we value small changes and fast fedback this also means we should be able to support longer term batches of work by using Feature Flags and Branch by Abstraction techniques
 
 ## Remote first ##
 
-Remote workers are first class participants in any activity they are part of
-
-A modern workforce should be enabled to work in a flexible way that supports their location and allows them an equal presence with other participants
+Remote workers are first class participants in any activity they are part of. A modern workforce should be enabled to work in a flexible way that supports their location and allows them an equal presence with other participants
 
 ## Spikes ##
 
-We use spikes to clarify feasibility, viability and scope. 
-
-Spikes are never shipped
+Spike solutions are really good for checking feasibility, viability and scope of an idea or piece of work. Spikes should never be shipped and spike should be kept away from master. Spikes should also be time-boxed this avoids unbounded amounts of work being done away from Master which is where value is shipped from.
 
 ## Use Architectural decision records (ADRs) ##
 
-We use architectural decision records as a way of capturing and communicating key decisions about our software architecture
+We use architectural decision records as a way of capturing and communicating key decisions about our software architecture. These should be lightweight enough that they arent a burden to read, but detailed enough that they capture the essential context of the decision made. They should be maintained, sustainable and accessible to everyone. 
 
 ## Mobbing ##
 
-Mobbing is a valuable tool where significant technical exploration is required and the group can consider the problem as a whole
+Where there are decisions about direction or areas that need broad awareness and exploration Mobbing is a valuable tool allowing a team to consider a problem or challenge as a whole group sharing their understanding and leveraging the skills and knowledge of the group
 
 ## Code Review ##
 
-All code is reviewed; this must include review by someone who is not the author
-
-This is not necessarily a PR related review. 
-
-This could be through pairing or through separate validation of work undertaken by someone on their own. 
-
-Small batches are key to keeping this an efficient practice where an engineer works alone
+All code must be reviewed and this must include review by someone who is not the author of the code. This is not necessarily a PR related review. Pairing provides one form of (p)review as does a classic code review. Small batches are key to keeping this an efficient practice. Where an engineer works alone pairs should be commiting regularly. 
 
 # Principles #
 
 ## SOLID ##
 
-Code should by sympathetic to the SOLID principles of object oriented software.
+We write object-oriented code that is sympathetic to the SOLID principles of object oriented software. These being
 
 **S**ingle responsibility principle
 
@@ -88,7 +65,7 @@ Code should by sympathetic to the SOLID principles of object oriented software.
 
 ## Done means Done ##
 
-Only code that is shippable is handed off from an engineer
+Code isnt done if it isn't runngin in production. Only code that is shippable is handed off from an engineer
 
 ## Clean Architecture Principles ##
 
