@@ -9,6 +9,8 @@ Test driven development produces testable code by default
 
 Test-driven development encourages client oriented design choices thinking from the perspective of a consumer which promotes better API
 
+[TDD Kata](http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata)
+
 ## Pairing and Pair Programming ##
 
 Pair Programming allows upfront discussion of specifications and design decisions rather than relying on a review of already written code
@@ -51,7 +53,9 @@ A modern workforce should be enabled to work in a flexible way that supports the
 
 ## Spikes ##
 
-We use spikes to clarify feasibility, viability and scope
+We use spikes to clarify feasibility, viability and scope. 
+
+Spikes are never shipped
 
 ## Use Architectural decision records (ADRs) ##
 
@@ -59,20 +63,23 @@ We use architectural decision records as a way of capturing and communicating ke
 
 ## Mobbing ##
 
-> **_We find mobbing a valuable tool where significant technical exploration is required_**
+Mobbing is a valuable tool where significant technical exploration is required and the group can consider the problem as a whole
 
 ## Code Review ##
 
-> **_All of our code is reviewed_**
+All code is reviewed; this must include review by someone who is not the author
 
-This is not necessarily a PR related review. This could be through pairing or through separate validation of work undertaken by someone on their own. Small batches is the key to keeping this an efficient practice.
-but all code must be reviewed by someone other than the author 
+This is not necessarily a PR related review. 
+
+This could be through pairing or through separate validation of work undertaken by someone on their own. 
+
+Small batches are key to keeping this an efficient practice where an engineer works alone
 
 # Principles #
 
 ## SOLID ##
 
-> **_We value the SOLID principles of object oriented programming_**
+Code should by sympathetic to the SOLID principles of object oriented software.
 
 **S**ingle responsibility principle
 
@@ -86,7 +93,7 @@ but all code must be reviewed by someone other than the author
 
 ## Done means Done ##
 
-> **_We only hand-off code that is shippable_**
+Only code that is shippable is handed off from an engineer
 
 ## Clean Architecture Principles ##
 
