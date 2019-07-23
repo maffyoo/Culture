@@ -12,9 +12,7 @@ Test-driven development encourages client oriented design choices made from the 
 
 ## Pairing and Pair Programming ##
 
-Pair Programming allows upfront discussion of specifications and design decisions rather than relying on a review of already written code
-
-Pair programming should be done at the right time for the right reasons - not all day, every day
+Pair Programming allows upfront discussion of specifications and design decisions rather than relying on a review of already written code. Pair programming is generally done at the right time for the right reasons - not all day, every day
 
 Its useful to agree a pairing style and the scope of the work to be done before beginning a pairing session 
 
@@ -22,19 +20,15 @@ Its useful to agree a pairing style and the scope of the work to be done before 
 
 Small batches of work are easily verifiable, reduce risk and support our goal of continuous integration and delivery
 
-Local Changes < 1 day old
+Local Changes should be less than 1 day old
 
 ## Feedback early and often ##
 
-Clarify Specifications and validate solution outlines continuously to avoid the only check being a review once code is already written
-
-Use Pair Programming for continuous review
-
-Use TDD for continuous feedback
+Clarify Specifications and validate solution outlines continuously and early to avoid the only check being a review once code is already written. Pair Programming is great for continuous review and TDD for continuous feedback
 
 ## Continuous delivery ##
 
-CD delivers measurable outcomes quickly
+Continuous Delivery produces measurable outcomes quickly
 
 Small batches mean issues can be detected and fixed cheaply
 
