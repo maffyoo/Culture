@@ -1,13 +1,12 @@
 # Practices #
 
-
 ## Test Driven Development ##
 
-Writing tests first avoids the challenge of whether you will write them afterwards?
+Writing tests first avoids the challenge of whether you will write them afterwards
 
-Test driven development produces testable code by default
+Test-driven development produces testable code by default
 
-Test-driven development encourages client oriented design choices thinking from the perspective of a consumer which promotes better API
+Test-driven development encourages client oriented design choices made from the perspective of a consumer which can promote better API design
 
 [TDD Kata](http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata)
 
@@ -15,11 +14,11 @@ Test-driven development encourages client oriented design choices thinking from 
 
 Pair Programming allows upfront discussion of specifications and design decisions rather than relying on a review of already written code
 
-Pair programming should be done at the right time for the right reasons - It doesn't involve pairing all day, every day
+Pair programming should be done at the right time for the right reasons - not all day, every day
 
-Agree a pairing style and the scope of the work to be done when pairing
+Its useful to agree a pairing style and the scope of the work to be done before beginning a pairing session 
 
-## Work in small batches ##
+## Work is done in small batches ##
 
 Small batches of work are easily verifiable, reduce risk and support our goal of continuous integration and delivery
 
@@ -27,15 +26,17 @@ Local Changes < 1 day old
 
 ## Feedback early and often ##
 
-Clarify Specifications and validate solution outlines continuously to avoid the only check being review once code is already written
+Clarify Specifications and validate solution outlines continuously to avoid the only check being a review once code is already written
 
 Use Pair Programming for continuous review
 
+Use TDD for continuous feedback
+
 ## Continuous delivery ##
 
-Small batches mean issues can be detected and fixed cheaply
-
 CD delivers measurable outcomes quickly
+
+Small batches mean issues can be detected and fixed cheaply
 
 supports our principle of feeding back early and often
 
@@ -97,63 +98,70 @@ Only code that is shippable is handed off from an engineer
 
 ## Clean Architecture Principles ##
 
-> **_Our Architectural values are represented by Clean Architecture Principles_**
+Software architecture should reflect the principles of Clean Architecture
 
 [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 ## Visualise work ##
 
-> **_We visualise work to share understanding_**
+Visualise work to share understanding
 
-## Flow ##
-
-> **_We value the principles of flow in our teams where engineers can achieve a state of full focus_**
 
 ## Agile ##
 
-> **_We value the principles of Agile_**
+Agile development allows us to work in a way that best delivers value effectively
 
 - Individuals and interactions over processes and tools
 - Working software over comprehensive documentation
 - Customer collaboration over contract negotiation
 - Responding to change over following a plan
 
-## We Solve Problems with Code ##
+## Be prepared to throw things away ##
 
-> **_We arent afraid to throw work away or to write some code to help us solve a problem_**
+Write code to clarify and solve problems dont be afraid to throw it away
 
-## We use Fitness functions as a way of measuring and reasoning about our architecture ##
+## Measure key aspects of our code and architecture ##
 
-> **_just like we measure our products to gauge success we measure our code and architecture to protect our code_**
+Use Architectural analytics, such as fitness functions, to measure architectural health and fitness
 
 ## Make it easiest to do the right thing ##
 
-> **_Always enable colleagues to make the right decision by making it the easiest decision_**
+Wherever we have important processes or practices we always make it easiest to do the right thing even if that involves actively blocking options
 
 ## Technology decisions are owned by chapters ##
 
-> **_Key decisions on platform specific technology and its use are decided by chapters_**
+Any key decisions on platform specific technology and its use are decided by chapters. it should never be the case that new paradigms, approaches of features are adopted in isolation without ensuring the platform technology community is aware and approving of the change
 
-## We believe in total Quality ##
+## Total Quality ##
 
-Quality From the start
-Our quality standards are not negotiable
+Quality concerns cover all that we do
+Our quality standards are not negotiable. never take shortcuts to get work delivered, we should always reduce scope. if we have to play tactics, this is not done without debt being planned in and agreed as part of the decision process
+
+## Continuoue Improvement ##
+
+We Set clear and ambitious goals and use the proactive practices of continuous improvement as a means of meeting and exceeding them
 
 # Behaviours #
 
-## We value transparency ##
+## Transparency ##
 
-> **_Transparency provides for a culture of trust and allows shared understanding_**
+Transparency provides for a culture of trust and allows shared understanding
 
-## We are inclusive by default ##
+## Inclusivity ##
 
-> **_We are equals as part of the same team_**
+Inclusion is important in a healthy gelled team
 
-## Fairness and equality are paramount ##
+## Fairness and equality ##
 
-## We value and support continual learning and development ##
+Fair and equal treatment that takes everyone and their needs into consideration.
 
-> **_Self development and mastery is critical to our personal and mutual success_**
+## Support team decisions ##
+
+Team decisions should be respected and supported even if there are individual disagreement
+
+## Continual learning and development ##
+
+Self development and mastery is critical to our personal and mutual success
 
 ## We believe everyone is a coach ## 
 
