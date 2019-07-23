@@ -1,77 +1,61 @@
 # Practices #
 
+
 ## Test Driven Development ##
 
-> **_We value the practice of test-driven development_**
-
-If you don't write the tests first will you write them afterwards?
+Writing tests first avoids the challenge of whether you will write them afterwards?
 
 Test driven development produces testable code by default
 
+Test-driven development encourages client oriented design choices thinking from the perspective of a consumer which promotes better API
+
 ## Pairing and Pair Programming ##
 
-> **_We value the practice of pair programming_**
+Pair Programming allows upfront discussion of specifications and design decisions rather than relying on a review of already written code
 
-Pair programming is pro-active code preview not fail-safe code reviews
-
-Pair programming should be done at the right time for the right reasons.
-
-Pair programming does not involve pairing all day, every day
+Pair programming should be done at the right time for the right reasons - It doesn't involve pairing all day, every day
 
 Agree a pairing style and the scope of the work to be done when pairing
 
-- [ ] **Rules defined**
-
 ## Work in small batches ##
 
-> **_We work in small batches_**
-
-small batches of work are easily verifiable, reduce risk and guide us towards continuous integration and delivery
+Small batches of work are easily verifiable, reduce risk and support our goal of continuous integration and delivery
 
 Local Changes < 1 day old
 
 ## Feedback early and often ##
 
-> **_We always verify our work before the last moment_**
+Clarify Specifications and validate solution outlines continuously to avoid the only check being review once code is already written
 
-Clarify Specifications and validate solution outlines
-
-Use Pair Programming for continuous review* 
+Use Pair Programming for continuous review
 
 ## Continuous delivery ##
 
-> **_Our goal is continuous delivery_**
-
-Small changes mean issues can be detected and fixed cheaply
+Small batches mean issues can be detected and fixed cheaply
 
 CD delivers measurable outcomes quickly
 
-Feedback early and often
+supports our principle of feeding back early and often
 
 ## Trunk Based Development ##
 
-> **_Trunk based development supports our efforts in continuous delivery and ensures we can always release_**
+Ensure code is always shippable
 
-We support longer term batches of work by using Feature Flags and Branch by Abstraction
+Support longer term batches of work by using Feature Flags and Branch by Abstraction
 
 ## Remote first ##
 
-> **_We support remote workers as first class participants in any activity they are part of_**
+Remote workers are first class participants in any activity they are part of
 
-A modern workforce should be enabled to work in a flexible way that supports their situation and allows them an equal presence with other participants
+A modern workforce should be enabled to work in a flexible way that supports their location and allows them an equal presence with other participants
 
 ## Spikes ##
 
-> **_We use spikes to clarify feasibility and scope_**
+We use spikes to clarify feasibility, viability and scope
 
-Spikes are never on Master
+## Use Architectural decision records (ADRs) ##
 
-We only use spikes on work that relates to user value
-
-## Use Architectural decision records (ADRs) to cpature key decisions about of our architecture ##
-> **_We use architectural decision records as a way of capturing and communicating key decisions about our software architecture_**
-
-These shouldnt be treated like acceptance criteria
+We use architectural decision records as a way of capturing and communicating key decisions about our software architecture
 
 ## Mobbing ##
 
