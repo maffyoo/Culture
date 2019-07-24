@@ -65,7 +65,7 @@ We write object-oriented code that is sympathetic to the SOLID principles of obj
 
 ## Done means Done ##
 
-Code isnt done if it isn't runngin in production. Only code that is shippable is handed off from an engineer
+Code isnt done if it isn't running in production. For this reason only code that is shippable is handed off from an engineer
 
 ## Clean Architecture Principles ##
 
