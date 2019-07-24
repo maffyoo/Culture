@@ -91,7 +91,7 @@ Our Software architecture should reflect the principles of Clean Architecture. C
 
 ## Visualise work ##
 
-Visualising work allows teams to share understanding about many aspects of their work, from plans, system processes and progress to team structures, inter-team or department relationships and dependencies. Removing ambuguity by visualising work enables productive discussion and transparency.
+Visualising work allows teams to share understanding about many aspects of their work, from plans, system processes and progress to team structures, inter-team or department relationships and dependencies. Removing ambuguity by visualising work enables productive discussion and transparency and shared understanding.
 
 ## Agile ##
 
@@ -129,37 +129,39 @@ Quality concerns cover all that we do. Our quality standards are not negotiable.
 
 ## Continuoue Improvement ##
 
-We set clear and ambitious goals and use the proactive practices of continuous improvement as a means of meeting and exceeding them. If we react to events and observations rather than improving and fixing towards a goal we will never have a consistent goal for improvement
+We set clear and ambitious goals and use the proactive practice of continuous improvement as a means of meeting and exceeding these goals. If we react to events and observations rather than improving and fixing towards a goal we will never have a consistent goal for improvement
 
 # Behaviours #
 
 ## Transparency ##
 
-Transparency provides for a culture of trust and allows shared understanding. Information should be shared as soon as is feasible in way that does not push this information onto everyone causing overload. Visualisation is a great way of being transparent.
+Transparency provides for a culture of trust and allows shared understanding. Information should be shared as soon as is feasible in way that does not push this information onto everyone causing overload. Visualisation is a great way of providing transparency.
 
 ## Inclusivity ##
 
-Inclusion is important in a healthy gelled team, everyone should feel included regardless of their physical location or and individual needs they have
+Inclusion is critical to healthy gelled teams, everyone should feel included regardless of their physical location or any individual needs or special attributes that they have
 
 ## Fairness and equality ##
 
 We operate in an environment of fair and equal treatment that takes everyone and their needs into consideration. in some cases this may mean we have to put reasonable measures in place such that the environment, our teams and how we work ensures equality and fairness for everyone
 
-## Challenge is welcomed ##
+## Embrace Challenge ##
 
-Because we believe in fairness, equality and inclusivity we encourage challenge where someone feels strongly about a decision, direction or similar we also expect that once a decision is made that the same challenge is not repeatedly made and that everyone will...
+Because we believe in fairness, equality and inclusivity we encourage challenge where someone feels strongly about a decision, our direction or similar. We also expect that decisions are respected. Challenges repeatedly made in a way that undermines the team or any individual is not acceptable, though.
 
 ## Support team decisions ##
 
-Team decisions should be respected and supported even if there are individual disagreement. everyone has the right to disagree but the team are responsible for deciding what the team does. Its also worth remembering that we are members of several teams. This could be your reports, if you are a manager, your peers and your community team such as iOS or Android chapter. 
+Team decisions should be respected and supported even if there is individual disagreement. Everyone has the right to disagree but the team are responsible for deciding what the team does and decisions have to be respected. Its also worth remembering that everyone is a member of multiple teams. This could be your reports, if you are a manager, your peers and your community team such as iOS or Android chapter. 
 
 ## Blame free post-mortems ##
 
+We conduct blame free post-mortems and incident reviews that allow everyone to learn. 
+
 ## Continual learning and development ##
 
-Self development and mastery is critical to our personal and mutual success
+Providing an environment where engineers can grow and progress means paying particular attention to continual learning in pursuit of Mastery. Mastery is accepted as a key pillar of personal motivation and engagement it also ensures that we are continually improving our ability to create great products and services.
 
-## We believe everyone is a coach ## 
+## Everyone is a teach, everyone is a student ## 
 
-> **_We help each other be our best through honest dialogue, advice and support _**
+Put simply we can all learn from each other. and should. whether its complex technical concerns or personal advice we should be prepared to act as a teacher or as a student
 
