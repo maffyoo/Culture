@@ -65,6 +65,16 @@ We write object-oriented code that is sympathetic to the SOLID principles of obj
 
 These principles produce code that is loosely coupled easy to reason about and simple to change.
 
+## Lean ##
+
+We believe in the principles of lean development.
+
+The flow of work
+fast feedback 
+continuous learning and improvement
+
+and many of the detailed applications that this implies, many of which are reflected in this document
+
 ## Done means Done ##
 
 Code isnt "done" if it isn't running in production. For this reason only code that is shippable should be handed off from an engineer. 
@@ -96,48 +106,54 @@ The agile manifesto captures the overriding
 
 ## Be prepared to throw things away ##
 
-> _The management question, therefore, is not whefher to build a pilot system and throw it away. You will do that. The only question is whether to plan in advance to build a throwaway, or to promise to deliver the throwaway to customers_
-- **Fred Brooks**
+> _The management question, therefore, is not whether to build a pilot system and throw it away. You will do that. The only question is whether to plan in advance to build a throwaway, or to promise to deliver the throwaway to customers_
+ **Fred Brooks**
 
 Write code to clarify and to start solving problems and dont be afraid to throw things away because you probably will anyway
 
 ## Measure key aspects of our code and architecture ##
 
-Analytics provide an invaluable insight into the effectiveness of products and their features based on goals and objectives of the product. In a similar way we can use analytics, such as fitness functions, to measure architectural health and fitness of our code base, ensuring it exhibits desirable traits and ensuring that when we have a problem we know that we need to focus on our software architecture.
+Analytics provide an invaluable insight into the effectiveness of products and their features based on goals and objectives of the product. In a similar way we can use analytics, such as fitness functions, to measure architectural health and fitness of our code base, ensuring it exhibits desirable traits and ensuring that when we have a problem we know that we need to focus on maintaining our software architecture.
 
 ## Make it easiest to do the right thing ##
 
-Wherever we have important processes or practices we should always make it easiest to do the right thing even if that involves actively blocking options that may make it easy for a team member to bypass or avoid a key task or step in a process. For example, if we have a policy of comments on all public API methods, we could automatically reject pull requests that dont have them ensuring that the easiest way to get avoid getting a Pull Request rejected is to have comments on all Public API
+Wherever we have important processes or practices we should always make it easiest to do the right thing even if that involves actively blocking options that may make it easy for a team member to bypass or avoid a key task or step in a process. For example, if we have a policy of comments on all public API methods, we could automatically reject pull requests that dont have comments on public API ensuring that the easiest way to avoid getting a Pull Request rejected is to have comments on all Public API
 
 ## Technology decisions are owned by chapters ##
 
 Any key decisions on platform specific technology and its use are decided by chapters. it should never be the case that new paradigms or approaches to creating or integrating features are adopted in isolation without ensuring the platform technology community is aware and approving of the approach.
 
-## Total Quality ##
+## Quality is not negotiable ##
 
-Quality concerns cover all that we do. Our quality standards are not negotiable. We never take shortcuts to get work delivered, we should always reduce scope as a first option. if we have to play tactics, this is not done without debt being planned in and agreed as part of the decision process
+Quality concerns cover all that we do. Our quality standards are not negotiable. We never take shortcuts to get work delivered, we should always reduce scope in this scenario. if we have to play tactics purely to meet a deadline, this is not done without debt being planned in and agreed as part of the decision process
 
 ## Continuoue Improvement ##
 
-We Set clear and ambitious goals and use the proactive practices of continuous improvement as a means of meeting and exceeding them. If we react to events and observations rather than improving and fixing towards a goal we will never have a consistent goal for improvement
+We set clear and ambitious goals and use the proactive practices of continuous improvement as a means of meeting and exceeding them. If we react to events and observations rather than improving and fixing towards a goal we will never have a consistent goal for improvement
 
 # Behaviours #
 
 ## Transparency ##
 
-Transparency provides for a culture of trust and allows shared understanding
+Transparency provides for a culture of trust and allows shared understanding. Information should be shared as soon as is feasible in way that does not push this information onto everyone causing overload. Visualisation is a great way of being transparent.
 
 ## Inclusivity ##
 
-Inclusion is important in a healthy gelled team
+Inclusion is important in a healthy gelled team, everyone should feel included regardless of their physical location or and individual needs they have
 
 ## Fairness and equality ##
 
-Fair and equal treatment that takes everyone and their needs into consideration.
+We operate in an environment of fair and equal treatment that takes everyone and their needs into consideration. in some cases this may mean we have to put reasonable measures in place such that the environment, our teams and how we work ensures equality and fairness for everyone
+
+## Challenge is welcomed ##
+
+Because we believe in fairness, equality and inclusivity we encourage challenge where someone feels strongly about a decision, direction or similar we also expect that once a decision is made that the same challenge is not repeatedly made and that everyone will...
 
 ## Support team decisions ##
 
-Team decisions should be respected and supported even if there are individual disagreement
+Team decisions should be respected and supported even if there are individual disagreement. everyone has the right to disagree but the team are responsible for deciding what the team does. Its also worth remembering that we are members of several teams. This could be your reports, if you are a manager, your peers and your community team such as iOS or Android chapter. 
+
+## Blame free post-mortems ##
 
 ## Continual learning and development ##
 
