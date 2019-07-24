@@ -161,7 +161,7 @@ We conduct blame free post-mortems and incident reviews that allow everyone to l
 
 Providing an environment where engineers can grow and progress means paying particular attention to continual learning in pursuit of Mastery. Mastery is accepted as a key pillar of personal motivation and engagement it also ensures that we are continually improving our ability to create great products and services.
 
-## Everyone is a teach, everyone is a student ## 
+## Everyone is a teacher, everyone is a student ## 
 
 Put simply we can all learn from each other. and should. whether its complex technical concerns or personal advice we should be prepared to act as a teacher or as a student
 
