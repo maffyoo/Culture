@@ -33,25 +33,25 @@ Remote workers are first class participants in any activity they are part of. A 
 
 ## Spikes ##
 
-Spike solutions are really good for checking feasibility, viability and scope of an idea or piece of work. Spikes should never be shipped and spike should be kept away from master. Spikes should also be time-boxed this avoids unbounded amounts of work being done away from Master which is where value is shipped from.
+Spike solutions are really good for checking feasibility, viability and scope of an idea or piece of work. Spikes should never be shipped and therefore should be kept away from master. Spikes should also be time-boxed: this avoids unbounded amounts of work being done away from Master where value is shipped from.
 
-## Use Architectural decision records (ADRs) ##
+## Use architectural decision records ##
 
-We use architectural decision records as a way of capturing and communicating key decisions about our software architecture. These should be lightweight enough that they arent a burden to read, but detailed enough that they capture the essential context of the decision made. They should be maintained, sustainable and accessible to everyone. 
+We use architectural decision records (ADRs) as a way of capturing and communicating key decisions about our software architecture. These should be lightweight enough that they arent a burden to read, but detailed enough that they capture the essential context of the decision made including options considered decision made and why, in relevant context, the choice was made. ADRs should be maintained, sustainable and accessible to everyone. 
 
 ## Mobbing ##
 
-Where there are decisions about direction or areas that need broad awareness and exploration Mobbing is a valuable tool allowing a team to consider a problem or challenge as a whole group sharing their understanding and leveraging the skills and knowledge of the group
+Where there are decisions about direction or areas that need broad awareness and exploration Mobbing is a valuable tool allowing a team to consider a problem or challenge as a whole group sharing their understanding and leveraging the skills and knowledge of the entire group. 
 
 ## Code Review ##
 
-All code must be reviewed and this must include review by someone who is not the author of the code. This is not necessarily a PR related review. Pairing provides one form of (p)review as does a classic code review. Small batches are key to keeping this an efficient practice. Where an engineer works alone pairs should be commiting regularly. 
+All code must be reviewed and this must include review by someone who is not the author of the code. This is not necessarily a Pull-request (PR) related review. Pairing provides one form of (p)review as does a classic PR based code review. Small batches are key to keeping this an efficient practice. Pairs should be verifying and committing regularly. 
 
 # Principles #
 
 ## SOLID ##
 
-We write object-oriented code that is sympathetic to the SOLID principles of object oriented software. These being
+We write object-oriented code that is sympathetic to the SOLID principles of object oriented design. These being
 
 **S**ingle responsibility principle
 
@@ -63,24 +63,31 @@ We write object-oriented code that is sympathetic to the SOLID principles of obj
 
 **D**ependency inversion principle
 
+These principles produce code that is loosely coupled easy to reason about and simple to change.
+
 ## Done means Done ##
 
-Code isnt done if it isn't running in production. For this reason only code that is shippable is handed off from an engineer
+Code isnt "done" if it isn't running in production. For this reason only code that is shippable should be handed off from an engineer. 
+
+## Automation ##
+
+We should automate repetitive tasks to allow teams to focus on less structured and predictable activities. Test specialists should be able to focus on Exploratory testing and not be burdened with validating acceptance criteria 
 
 ## Clean Architecture Principles ##
 
-Software architecture should reflect the principles of Clean Architecture
+Our Software architecture should reflect the principles of Clean Architecture. Clean architecture produces testable code, where details are only known known by the least amount of our code making them easy to replace or change. 
 
 [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 ## Visualise work ##
 
-Visualise work to share understanding
-
+Visualising work allows teams to share understanding about many aspects of their work, from plans, system processes and progress to team structures, inter-team or department relationships and dependencies. Removing ambuguity by visualising work enables productive discussion and transparency.
 
 ## Agile ##
 
-Agile development allows us to work in a way that best delivers value effectively
+Agile development allows us to work in a way that best delivers value effectively focussing on activities that improve outcomes rather than beaurocractic activities that produce artefacts for the sake of it. 
+
+The agile manifesto captures the overriding 
 
 - Individuals and interactions over processes and tools
 - Working software over comprehensive documentation
@@ -89,28 +96,30 @@ Agile development allows us to work in a way that best delivers value effectivel
 
 ## Be prepared to throw things away ##
 
-Write code to clarify and solve problems dont be afraid to throw it away
+> _The management question, therefore, is not whefher to build a pilot system and throw it away. You will do that. The only question is whether to plan in advance to build a throwaway, or to promise to deliver the throwaway to customers_
+- **Fred Brooks**
+
+Write code to clarify and to start solving problems and dont be afraid to throw things away because you probably will anyway
 
 ## Measure key aspects of our code and architecture ##
 
-Use Architectural analytics, such as fitness functions, to measure architectural health and fitness
+Analytics provide an invaluable insight into the effectiveness of products and their features based on goals and objectives of the product. In a similar way we can use analytics, such as fitness functions, to measure architectural health and fitness of our code base, ensuring it exhibits desirable traits and ensuring that when we have a problem we know that we need to focus on our software architecture.
 
 ## Make it easiest to do the right thing ##
 
-Wherever we have important processes or practices we always make it easiest to do the right thing even if that involves actively blocking options
+Wherever we have important processes or practices we should always make it easiest to do the right thing even if that involves actively blocking options that may make it easy for a team member to bypass or avoid a key task or step in a process. For example, if we have a policy of comments on all public API methods, we could automatically reject pull requests that dont have them ensuring that the easiest way to get avoid getting a Pull Request rejected is to have comments on all Public API
 
 ## Technology decisions are owned by chapters ##
 
-Any key decisions on platform specific technology and its use are decided by chapters. it should never be the case that new paradigms, approaches of features are adopted in isolation without ensuring the platform technology community is aware and approving of the change
+Any key decisions on platform specific technology and its use are decided by chapters. it should never be the case that new paradigms or approaches to creating or integrating features are adopted in isolation without ensuring the platform technology community is aware and approving of the approach.
 
 ## Total Quality ##
 
-Quality concerns cover all that we do
-Our quality standards are not negotiable. never take shortcuts to get work delivered, we should always reduce scope. if we have to play tactics, this is not done without debt being planned in and agreed as part of the decision process
+Quality concerns cover all that we do. Our quality standards are not negotiable. We never take shortcuts to get work delivered, we should always reduce scope as a first option. if we have to play tactics, this is not done without debt being planned in and agreed as part of the decision process
 
 ## Continuoue Improvement ##
 
-We Set clear and ambitious goals and use the proactive practices of continuous improvement as a means of meeting and exceeding them
+We Set clear and ambitious goals and use the proactive practices of continuous improvement as a means of meeting and exceeding them. If we react to events and observations rather than improving and fixing towards a goal we will never have a consistent goal for improvement
 
 # Behaviours #
 
