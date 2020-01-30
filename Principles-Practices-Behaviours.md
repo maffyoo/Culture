@@ -10,6 +10,8 @@ Test-driven development produces testable code by default and writing tests firs
 
 Pair Programming allows upfront discussion of specifications and design decisions rather than relying on a review of already written code. Pair programming is generally done at the right time for the right reasons - not all day, every day. Its useful to agree a pairing style and the scope of the work to be done before beginning a pairing session 
 
+[On Pair Programming - Martin Fowler](https://martinfowler.com/articles/on-pair-programming.html)
+
 ## Work is done in small batches ##
 
 Small batches of work are easily verifiable, reduce risk and support our goals of continuous integration and delivery
@@ -27,6 +29,8 @@ Continuous Delivery produces measurable outcomes quickly. working in small batch
 
 We should ensure code is always shippable from master because we value small changes and fast fedback this also means we should be able to support longer term batches of work by using Feature Flags and Branch by Abstraction techniques
 
+[Trunk Based Development](https://trunkbaseddevelopment.com)
+
 ## Remote first ##
 
 Remote workers are first class participants in any activity they are part of. A modern workforce should be enabled to work in a flexible way that supports their location and allows them an equal presence with other participants
@@ -38,6 +42,8 @@ Spike solutions are really good for checking feasibility, viability and scope of
 ## Use architectural decision records ##
 
 We use architectural decision records (ADRs) as a way of capturing and communicating key decisions about our software architecture. These should be lightweight enough that they arent a burden to read, but detailed enough that they capture the essential context of the decision made including options considered decision made and why, in relevant context, the choice was made. ADRs should be maintained, sustainable and accessible to everyone. 
+
+[ADRs on github.com](https://adr.github.io) 
 
 ## Mobbing ##
 
@@ -64,6 +70,8 @@ We write object-oriented code that is sympathetic to the SOLID principles of obj
 **D**ependency inversion principle
 
 These principles produce code that is loosely coupled easy to reason about and simple to change.
+
+[SOLID](https://www.youtube.com/watch?v=TMuno5RZNeE)
 
 ## Lean ##
 
